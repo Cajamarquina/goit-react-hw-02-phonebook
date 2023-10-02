@@ -32,6 +32,7 @@ class ContactForm extends Component {
             value={name}
             onChange={this.handleChange}
             required
+            autoComplete="name"
           />
           <input
             type="tel"
@@ -40,6 +41,7 @@ class ContactForm extends Component {
             value={number}
             onChange={this.handleChange}
             required
+            autoComplete="tel"
           />
           <button type="submit">Add contact</button>
         </form>
